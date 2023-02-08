@@ -1,0 +1,282 @@
+body{
+    background-color: rgb(31, 31, 34);
+    font-family: arial rounded mt;
+    overflow: hidden;
+}
+.fondo{
+    width: 120vw;
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0.664);
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: -100rem;
+    left: 0;
+}
+.content2{
+    position: relative;
+    width: 70vw;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    top: 60px;
+    left: -130px;
+}
+.title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 120px;
+    margin-top: 30px;
+    width: 100vw;
+    height: 30vh;
+}
+.boton{
+    position: absolute;
+    top: 20rem;
+}
+.boton button{
+    font-size: 30px;
+    border: 5px solid white;
+    border-radius: 30px;
+    background: none;
+    height: 60px;
+    width: 190px;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+.boton button:hover {
+    background: rgb(55, 55, 83);
+    transition: .5s;
+}
+.content{
+    position: relative;
+    left: 390px;
+    margin-top: 30px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+}
+.hr{
+    position: absolute;
+    width: 15px;
+    height: 495px;
+    background-color: white;
+    border: 2px solid white ;
+    justify-content: center;
+    margin-left: 160px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.hr2{
+    position: absolute;
+    width: 15px;
+    height: 495px;
+    background-color: white;
+    border: 2px solid white ;
+    justify-content: center;
+    margin-left: 330px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.hr3{
+    position: absolute;
+    width: 495px;
+    height: 15px;
+    background-color: white;
+    border: 2px solid white ;
+    justify-content: center;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+.hr4{
+    position: absolute;
+    width: 495px;
+    height: 15px;
+    background-color: white;
+    border: 2px solid white ;
+    justify-content: center;
+    margin-top: 320px;
+    border-radius: 10px;
+}
+.cuadro{
+    position: relative;
+    width: 165px;
+    height: 150px;
+    margin-left: 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.equis{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 45px;
+    top: -23px;
+    margin-top: 0px;
+    font-size: 150px;
+    opacity: 0;
+    color: rgb(187, 184, 214); 
+    transition: .5s;
+}
+.circle{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    top: 30px;
+    left: 13px;
+    top: 7px;
+    border: 20px solid ;
+    background: none;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    color: rgb(26, 59, 207);
+    opacity: 0;
+    transition: .5s;
+}
+@media screen and (max-width: 800px) {
+    body{
+        overflow: hidden;
+    }
+    .content{ 
+        position: relative;
+        left: -160px; 
+    }
+    .info{
+        position: relative;
+        width: 330px;
+        margin-left: 160px;
+        height: 460px;
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        justify-content: center;
+    }
+    .hr{
+        position: absolute;
+        width: 10px;
+        height: 455px;
+        background-color: white;
+        border: 2px solid white ;
+        justify-content: center;
+        margin-left: 97px;
+        margin-top: 0px;
+        border-radius: 10px;
+    }
+    .hr2{
+        position: absolute;
+        width: 10px;
+        height: 455px;
+        background-color: white;
+        border: 2px solid white ;
+        justify-content: center;
+        margin-left: 230px;
+        margin-top: 0px;
+        border-radius: 10px;
+    }
+    .hr3{
+        position: absolute;
+        width: 340px;
+        height: 10px;
+        background-color: white;
+        border: 2px solid white ;
+        justify-content: center;
+        margin-top: 150px;
+        border-radius: 10px;
+    }
+    .hr4{
+        position: absolute;
+        width: 340px;
+        height: 10px;
+        background-color: white;
+        border: 2px solid white ;
+        justify-content: center;
+        margin-top: 300px;
+        border-radius: 10px;
+    }
+    .cuadro{
+        position: relative;
+        width: 115px;
+        height: 150px;
+        left: -10px ;
+        margin-left: 10px;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
+    .equis{
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        left: 35px;
+        top: -13px;
+        margin-top: 0px;
+        font-size: 130px;
+        opacity: 0;
+        color: rgb(187, 184, 214); 
+        transition: .5s;
+    }
+    .circle{
+        border: 19px solid ;
+        margin-top: 3px;
+        top: 30px;
+        left: 30px;
+        top: 30px;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        opacity: 0;
+        transition: .5s;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width:700px) {
+    .content{ 
+        position: relative;
+        left: -50px; 
+    }
+}
+@media screen and (min-width: 700px) and (max-width:800px) {
+    .content{ 
+        position: relative;
+        left: 30px; 
+    }
+}
+@media screen and (max-width: 800px) {
+    .title{
+        font-size: 70px;
+        text-align: center;
+    }
+    .content2{
+        left: -40px;
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    .title{
+        font-size: 70px;
+        text-align: center;
+    }
+    .fondo{
+        width: 180vw;
+        height: 180vh;
+        left: 0px;
+    }
+    
+}
